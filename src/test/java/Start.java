@@ -17,6 +17,7 @@ public class Start {
         wd.navigate().back();
         wd.navigate().forward();
         wd.navigate().refresh();
+        
         //close browser
         wd.close();
         wd.quit();
